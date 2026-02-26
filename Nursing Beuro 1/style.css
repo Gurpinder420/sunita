@@ -794,6 +794,7 @@ body {
     gap: 4rem;
     align-items: center;
     margin-bottom: 6rem;
+    padding: 20px 30px;
     animation: fadeInUp 1s ease 0.2s both;
 }
 
@@ -841,6 +842,7 @@ body {
 
 .story-image {
     position: relative;
+    
 }
 
 .story-image img {
@@ -2024,6 +2026,10 @@ body {
     .story-section {
         grid-template-columns: 1fr;
         gap: 2rem;
+        padding: 0px 10px;
+    }
+    .experience-badge{
+        right: 10px;
     }
     
     .mission-vision {
