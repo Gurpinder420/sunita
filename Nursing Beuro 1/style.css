@@ -1937,7 +1937,8 @@ body {
         w
     } */
      .navbar{
-        padding: 0px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
+        height: 8vh;
      }
     .nav-links {
         display: none !important;
@@ -2087,7 +2088,8 @@ body {
 @media screen and (max-width: 480px) {
    .navbar
    {
-    overflow: hidden;
+    margin-right: 20px;
+    /* padding-bottom: 8px; */
    }
    .logo img
    {
@@ -2136,7 +2138,7 @@ body {
     }
     .experience-badge
     {
-        overflow: hidden;
+        display: none;
     }
     .story-image img
     {
