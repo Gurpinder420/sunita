@@ -2131,6 +2131,10 @@ body {
     .service-card h3 {
         font-size: 1.5rem;
     }
+    .experience-badge
+    {
+        overflow: hidden;
+    }
     
     .story-content p {
         text-align: justify;
