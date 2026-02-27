@@ -2085,7 +2085,10 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-   
+   .navbar
+   {
+    overflow: hidden;
+   }
    .logo img
    {
      padding: 5px 0px 0px 0px;
@@ -2134,6 +2137,10 @@ body {
     .experience-badge
     {
         overflow: hidden;
+    }
+    .story-image img
+    {
+        padding: 0px 10px 10px 10px;
     }
     
     .story-content p {
